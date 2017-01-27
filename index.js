@@ -22,3 +22,12 @@ function createAnimal(animalType) {
     return { animalType, deadlyDevice };
   }
 }
+
+var sharkWithFrickinLaserbeam = createAnimal("Shark")("Laserbeam")
+var shark = createAnimal("Shark")
+// stores return value of createAnimal function with the parameter animalType = Shark
+
+console.log(shark)
+var sharkWithFrickinCannon = shark("Cannon")
+//exectures 
+console.log(sharkWithFrickinCannon)
